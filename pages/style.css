@@ -1,0 +1,81 @@
+/*
+	styles.css
+*/
+
+html, body{
+    min-height: 0!important;
+    height: auto!important;
+    position: inherit!important;
+	font-family: Arial, Helvetica, sans-serif ;
+	background-image: url("images/backround.jpg");
+	background-size: cover;
+}
+
+body > .skiptranslate {
+    display: none;
+}
+
+body {
+    top: 0px !important; 
+    }
+
+img {
+	max-width: 100% ;
+	width: auto ;
+	height: auto ;
+}
+input, select, button, textarea {
+	max-width: 100% ;
+}
+meter, progress, output {
+	max-width: 100% ;
+}
+div#tswsidecol {
+	float: right ;
+	width: 23% ;
+	color: #000 ;
+	background-color: #fff ;
+}
+div#tswcontent {
+	float: right ;
+	width: 77% ;
+	color: #000 ;
+	background-color: #fff ;
+}
+@media only screen and (max-width: 629px) {
+	div#tswsidecol {
+		float: none ;
+		width: 100% ;
+	}
+	div#tswcontent {
+		float: none ;
+		width: 100% ;
+	}
+}
+div#tswcontproper {
+	padding-left: 5px ;
+	padding-right: 5px ;
+}
+div#tswcontainer {
+	color: inherit ;
+	background-color: #fff ;
+}
+div#tswsideproper, div#tswothersideproper {
+	padding-left: 5px ;
+	padding-right: 5px ;
+}
+div#tswheader {
+	color: #000 ;
+	background-color: #fff ;
+}
+div#tswfooter {
+	color: #000 ;
+	background-color: #fff ;
+}
+
+button {
+         transition-duration: 0.4s;
+      }
+button:hover {
+        color:white;
+}

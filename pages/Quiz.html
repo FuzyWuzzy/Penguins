@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quizStyle.css">
+    <script src="script.js"></script>
+  </head>
+  <body onload="loadQues()">
+    <script type="text/javascript"> 
+        function googleTranslateElementInit() { 
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'}, 
+                'google_translate_element'
+            ); 
+        } 
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <div>
+      <h1 id="title" style="">Penguin Quiz! </h1>
+    </div>
+    <div class="panel">
+      <div class="question" id="ques"></div>
+      <div class="options" id="opt"></div>
+      <div id="score"></div>
+      <br>
+      <div><button onclick="checkAns()" style="background:lightblue; height: 36px; margin-top: 280px;border-radius: 25px;"
+
+          id="btn">SUBMIT</button></div>
+    </div>
+    <div style="text-align: center;"><button name="Home" type="button" onclick="page_switch('../index')"
+
+        style="text-align:center;border-radius: 25px;border-color: black;background:lightblue;margin-top: 300px; width: 68px; height: 28px;">Home</button></div>
+  </body>
+</html>
